@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>登入</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/14/1/g7w3HJ.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <form method="POST" action="signcheck.php">
+            <h2><b>會員登入</b></h2>
+            <h3>
+                請輸入帳號：<input type="text" name="ac_c" /><br> 請輸入密碼：<input type="Password" name="pw_c" /><br>
+            </h3>
+            <input type="submit" value="登入" style="width:120px;height:40px;" />
+        </form>
+
+        <form method="POST" action="storelogin.html">
+            <input type="submit" value="管理員登入" style="width:120px;height:40px;" />
+        </form>
+
+        <form method="POST" action="signup.html">
+            <input type="submit" value="註冊" style="width:120px;height:40px;" />
+        </form>
+
+        <form action="bakery.html" method="post">
+            <p><input type="submit" name="submit" value="返回" style="width:120px;height:40px;"></p>
+        </form>
+    </center>
+</body>
+
+</html>
